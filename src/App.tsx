@@ -1,12 +1,12 @@
-import ItemsList from "./components/ItemsList";
+import { ItemType } from "./components/Item";
+import Listing from "./components/Listing";
 import data from "./data/etsy.json";
+import "./App.css";
 
 function App() {
-  const newdata = data.filter((el) => el.state === "active");
-
   return (
     <>
-      <ItemsList array={newdata} />
+      <Listing array={data as ItemType[]} />
     </>
   );
 }

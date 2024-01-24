@@ -1,5 +1,3 @@
-import { FC } from "react";
-
 export type ItemType = {
   listing_id: number;
   url: string;
@@ -17,7 +15,7 @@ type ItemProps = {
   item: ItemType;
 };
 
-const Item: FC<ItemProps> = ({ item }) => {
+const Item = ({ item }: ItemProps) => {
   const title =
     item.title.length > 50 ? item.title.slice(0, 51) + "..." : item.title;
 
