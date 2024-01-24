@@ -1,8 +1,12 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/p2rt9nnjh63f1ro2?svg=true)](https://ci.appveyor.com/project/Silverscreened19/ra-props-etsy)
+
+https://silverscreened19.github.io/ra-props-etsy/
+
 Список предложений
 ===
 
 Необходимо вывести список предложений каталога Etsy.com, используя библиотеку React. После загрузки данных и отрисовки список должен выглядеть так:
-![Список предложений](./assets/preview.png)
+![Список предложений](../etsy/src/assets/preview.png)
 
 ## Данные списка предложений
 
